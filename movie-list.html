@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Movie Ticket</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+
+</head>
+
+<body>
+
+  <!-- ==========Header-Section========== -->
+  <header class="header-section">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="logo">
+          <!-- <a href="#0"> -->
+          <img src="./images/logo/logo.png" alt="logo">
+          <!-- </a> -->
+        </div>
+        <ul class="menu">
+          <!-- <li class="menu-has-children">
+            <a href="#">Home</a>
+            <ul class="submenu">
+              <li>
+                <a href="#">Home One</a>
+              </li>
+              <li>
+                <a href="#">Home One</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu-has-children">
+            <a href="#" class="active">movies</a>
+            <ul class="submenu">
+              <li>
+                <a href="#">Movie Grid</a>
+              </li>
+              <li>
+                <a href="#">Movie List</a>
+              </li>
+              <li>
+                <a href="#">Movie Details</a>
+              </li>
+              <li>
+                <a href="#">Movie Details 2</a>
+              </li>
+              <li>
+                <a href="#">Movie Ticket Plan</a>
+              </li>
+              <li>
+                <a href="#" class="active">Movie Seat Plan</a>
+              </li>
+              <li>
+                <a href="#">Movie Checkout</a>
+              </li>
+              <li>
+                <a href="#">Movie Food</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu-has-children">
+            <a href="#">events</a>
+            <ul class="submenu">
+              <li>
+                <a href="#">Events</a>
+              </li>
+              <li>
+                <a href="#">Event Details</a>
+              </li>
+              <li>
+                <a href="#">Event Speaker</a>
+              </li>
+              <li>
+                <a href="#">Event Ticket</a>
+              </li>
+              <li>
+                <a href="#">Event Checkout</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu-has-children">
+            <a href="#">sports</a>
+            <ul class="submenu">
+              <li>
+                <a href="#">Sports</a>
+              </li>
+              <li>
+                <a href="#">Sport Details</a>
+              </li>
+              <li>
+                <a href="#">Sport Ticket</a>
+              </li>
+              <li>
+                <a href="#">Sport Checkout</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu-has-children">
+            <a href="#">pages</a>
+            <ul class="submenu">
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Apps Download</a>
+              </li>
+              <li>
+                <a href="#">Sign In</a>
+              </li>
+              <li>
+                <a href="#">Sign Up</a>
+              </li>
+              <li>
+                <a href="#">404</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu-has-children">
+            <a href="#">blog</a>
+            <ul class="submenu">
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Blog Single</a>
+              </li>
+            </ul>
+          </li> -->
+
+          <!-- <li>
+            <a href="#">contact</a>
+          </li> -->
+          <li class="header-button">
+            <a href="#">join us</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- ==========Header-Section========== -->
+
+  <!-- ==============Window-Warning-Section============= -->
+  <section class="window-warning">
+    <div class="lay">
+      <iframe width="1280" height="720" src="https://www.youtube.com/embed/AlLFB-GINsg?enablejsapi=1" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </section>
+  <!-- ==============Window-Warning-Section============= -->
+
+  <!-- ==========Banner-Section========== -->
+  <section class="details-banner bg_img" data-background="./images/banner/banner03.jpg"
+    style="background-image: url(./images/banner/banner02.jpg); background-size: cover;">
+    <!-- <div class="banner-bg bg_img bg-fixed" data-background="././images/banner/banner02.jpg"></div> -->
+    <div class="container">
+      <div class="banner-content">
+        <h1 class="title bold">get <span class="color-theme">movie</span> tickets</h1>
+        <p>Buy movie tickets in advance, find movie times watch trailer, read movie reviews and much more</p>
+      </div>
+    </div>
+  </section>
+  <!-- ==========Banner-Section========== -->
+
+  <!-- ==========Movie-Section========== -->
+  <section class="movie-section padding-top padding-bottom">
+    <div class="container">
+      <div class="tab-item active">
+        <div id="movie-area" class="movie-area mb-10">
+          <div id="movie-list" class="movie-list">
+            <div class="movie-thumb c-thumb">
+              <a href="#0" class="w-100 bg_img h-100" data-background="././images/movie/movie01.jpg">
+                <img class="d-sm-none" src="./images/movie/movie01.jpg" alt="movie">
+              </a>
+            </div>
+            <div class="movie-content bg-one">
+              <h5 class="title">
+                <a href="#0">alone</a>
+              </h5>
+              <p class="duration">2hrs 50 min</p>
+              <div class="movie-tags">
+                <a href="#0">action</a>
+                <a href="#0">adventure</a>
+                <a href="#0">fantasy</a>
+              </div>
+              <div class="release">
+                <span>Release Date : </span> <a href="#0"> November 8 , 2020</a>
+              </div>
+              <div class="movie-schedule">
+                <div class="item">
+                  09:40
+                </div>
+                <div class="item">
+                  13:45
+                </div>
+                <div class="item">
+                  15:45
+                </div>
+                <div class="item">
+                  19:50
+                </div>
+              </div>
+
+              <div class="book-area">
+                <div class="book-ticket">
+                  <div class="react-item">
+                    <a href="#0" class="popup-video">
+                      <div class="thumb">
+                        <img src="././images/icons/play-button.png" alt="icons">
+                      </div>
+                      <span>watch trailer</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movie-list">
+            <div class="movie-thumb c-thumb">
+              <a href="#0" class="w-100 bg_img h-100" data-background="././images/movie/movie02.jpg">
+                <img class="d-sm-none" src="././images/movie/movie02.jpg" alt="movie">
+              </a>
+            </div>
+            <div class="movie-content bg-one">
+              <h5 class="title">
+                <a href="#0">mars</a>
+              </h5>
+              <p class="duration">2hrs 50 min</p>
+              <div class="movie-tags">
+                <a href="#0">action</a>
+                <a href="#0">adventure</a>
+                <a href="#0">fantasy</a>
+              </div>
+              <div class="release">
+                <span>Release Date : </span> <a href="#0"> November 8 , 2020</a>
+              </div>
+              <div class="movie-schedule">
+                <div class="item">
+                  09:40
+                </div>
+                <div class="item">
+                  13:45
+                </div>
+                <div class="item">
+                  15:45
+                </div>
+                <div class="item">
+                  19:50
+                </div>
+              </div>
+              <div class="book-area">
+                <div class="book-ticket">
+                  <div class="react-item">
+                    <a href="#0" class="popup-video">
+                      <div class="thumb">
+                        <img src="././images/icons/play-button.png" alt="icons">
+                      </div>
+                      <span>watch trailer</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movie-list">
+            <div class="movie-thumb c-thumb">
+              <a href="#0" class="w-100 bg_img h-100" data-background="././images/movie/movie03.jpg">
+                <img class="d-sm-none" src="././images/movie/movie03.jpg" alt="movie">
+              </a>
+            </div>
+            <div class="movie-content bg-one">
+              <h5 class="title">
+                <a href="#0">venus</a>
+              </h5>
+              <p class="duration">2hrs 50 min</p>
+              <div class="movie-tags">
+                <a href="#0">action</a>
+                <a href="#0">adventure</a>
+                <a href="#0">fantasy</a>
+              </div>
+              <div class="release">
+                <span>Release Date : </span> <a href="#0"> November 8 , 2020</a>
+              </div>
+              <div class="movie-schedule">
+                <div class="item">
+                  09:40
+                </div>
+                <div class="item">
+                  13:45
+                </div>
+                <div class="item">
+                  15:45
+                </div>
+                <div class="item">
+                  19:50
+                </div>
+              </div>
+              <div class="book-area">
+                <div class="book-ticket">
+                  <div class="react-item">
+                    <a href="#0" class="popup-video">
+                      <div class="thumb">
+                        <img src="././images/icons/play-button.png" alt="icons">
+                      </div>
+                      <span>watch trailer</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movie-list">
+            <div class="movie-thumb c-thumb">
+              <a href="#0" class="w-100 bg_img h-100" data-background="././images/movie/movie04.jpg">
+                <img class="d-sm-none" src="././images/movie/movie04.jpg" alt="movie">
+              </a>
+            </div>
+            <div class="movie-content bg-one">
+              <h5 class="title">
+                <a href="#0">on watch</a>
+              </h5>
+              <p class="duration">2hrs 50 min</p>
+              <div class="movie-tags">
+                <a href="#0">action</a>
+                <a href="#0">adventure</a>
+                <a href="#0">fantasy</a>
+              </div>
+              <div class="release">
+                <span>Release Date : </span> <a href="#0"> November 8 , 2020</a>
+              </div>
+              <div class="movie-schedule">
+                <div class="item">
+                  09:40
+                </div>
+                <div class="item">
+                  13:45
+                </div>
+                <div class="item">
+                  15:45
+                </div>
+                <div class="item">
+                  19:50
+                </div>
+              </div>
+              <div class="book-area">
+                <div class="book-ticket">
+                  <div class="react-item">
+                    <a href="#0" class="popup-video">
+                      <div class="thumb">
+                        <img src="././images/icons/play-button.png" alt="icons">
+                      </div>
+                      <span>watch trailer</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movie-list">
+            <div class="movie-thumb c-thumb">
+              <a href="#0" class="w-100 bg_img h-100" data-background="././images/movie/movie05.jpg">
+                <img class="d-sm-none" src="././images/movie/movie05.jpg" alt="movie">
+              </a>
+            </div>
+            <div class="movie-content bg-one">
+              <h5 class="title">
+                <a href="#0">fury</a>
+              </h5>
+              <p class="duration">2hrs 50 min</p>
+              <div class="movie-tags">
+                <a href="#0">action</a>
+                <a href="#0">adventure</a>
+                <a href="#0">fantasy</a>
+              </div>
+              <div class="release">
+                <span>Release Date : </span> <a href="#0"> November 8 , 2020</a>
+              </div>
+              <div class="movie-schedule">
+                <div class="item">
+                  09:40
+                </div>
+                <div class="item">
+                  13:45
+                </div>
+                <div class="item">
+                  15:45
+                </div>
+                <div class="item">
+                  19:50
+                </div>
+              </div>
+              <div class="book-area">
+                <div class="book-ticket">
+                  <div class="react-item">
+                    <a href="#0" class="popup-video">
+                      <div class="thumb">
+                        <img src="././images/icons/play-button.png" alt="icons">
+                      </div>
+                      <span>watch trailer</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movie-list">
+            <div class="movie-thumb c-thumb">
+              <a href="#0" class="w-100 bg_img h-100" data-background="././images/movie/movie06.jpg">
+                <img class="d-sm-none" src="././images/movie/movie06.jpg" alt="movie">
+              </a>
+            </div>
+            <div class="movie-content bg-one">
+              <h5 class="title">
+                <a href="#0">trooper</a>
+              </h5>
+              <p class="duration">2hrs 50 min</p>
+              <div class="movie-tags">
+                <a href="#0">action</a>
+                <a href="#0">adventure</a>
+                <a href="#0">fantasy</a>
+              </div>
+              <div class="release">
+                <span>Release Date : </span> <a href="#0"> November 8 , 2020</a>
+              </div>
+              <div class="movie-schedule">
+                <div class="item">
+                  09:40
+                </div>
+                <div class="item">
+                  13:45
+                </div>
+                <div class="item">
+                  15:45
+                </div>
+                <div class="item">
+                  19:50
+                </div>
+              </div>
+
+              <div class="book-area">
+                <div class="book-ticket">
+                  <div class="react-item">
+                    <a href="#0" class="popup-video">
+                      <div class="thumb">
+                        <img src="././images/icons/play-button.png" alt="icons">
+                      </div>
+                      <span>watch trailer</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movie-list">
+            <div class="movie-thumb c-thumb">
+              <a href="#0" class="w-100 bg_img h-100" data-background="././images/movie/movie07.jpg">
+                <img class="d-sm-none" src="././images/movie/movie07.jpg" alt="movie">
+              </a>
+            </div>
+            <div class="movie-content bg-one">
+              <h5 class="title">
+                <a href="#0">horror night</a>
+              </h5>
+              <p class="duration">2hrs 50 min</p>
+              <div class="movie-tags">
+                <a href="#0">action</a>
+                <a href="#0">adventure</a>
+                <a href="#0">fantasy</a>
+              </div>
+              <div class="release">
+                <span>Release Date : </span> <a href="#0"> November 8 , 2020</a>
+              </div>
+              <div class="movie-schedule">
+                <div class="item">
+                  09:40
+                </div>
+                <div class="item">
+                  13:45
+                </div>
+                <div class="item">
+                  15:45
+                </div>
+                <div class="item">
+                  19:50
+                </div>
+              </div>
+              <div class="book-area">
+                <div class="book-ticket">
+                  <div class="react-item">
+                    <a href="#0" class="popup-video">
+                      <div class="thumb">
+                        <img src="././images/icons/play-button.png" alt="icons">
+                      </div>
+                      <span>watch trailer</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movie-list">
+            <div class="movie-thumb c-thumb">
+              <a href="#0" class="w-100 bg_img h-100" data-background="././images/movie/movie08.jpg">
+                <img class="d-sm-none" src="././images/movie/movie08.jpg" alt="movie">
+              </a>
+            </div>
+            <div class="movie-content bg-one">
+              <h5 class="title">
+                <a href="#0">the lost name</a>
+              </h5>
+              <p class="duration">2hrs 50 min</p>
+              <div class="movie-tags">
+                <a href="#0">action</a>
+                <a href="#0">adventure</a>
+                <a href="#0">fantasy</a>
+              </div>
+              <div class="release">
+                <span>Release Date : </span> <a href="#0"> November 8 , 2020</a>
+              </div>
+              <div class="movie-schedule">
+                <div class="item">
+                  09:40
+                </div>
+                <div class="item">
+                  13:45
+                </div>
+                <div class="item">
+                  15:45
+                </div>
+                <div class="item">
+                  19:50
+                </div>
+              </div>
+              <div class="book-area">
+                <div class="book-ticket">
+                  <div class="react-item">
+                    <a href="#0" class="popup-video">
+                      <div class="thumb">
+                        <img src="././images/icons/play-button.png" alt="icons">
+                      </div>
+                      <span>watch trailer</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="movie-list">
+              <div class="movie-thumb c-thumb">
+                <a href="movie-details.html" class="w-100 bg_img h-100" data-background="././images/movie/movie09.jpg">
+                  <img class="d-sm-none" src="././images/movie/movie09.jpg" alt="movie">
+                </a>
+              </div>
+              <div class="movie-content bg-one">
+                <h5 class="title">
+                  <a href="movie-details.html">calm stedfast</a>
+                </h5>
+                <p class="duration">2hrs 50 min</p>
+                <div class="movie-tags">
+                  <a href="#0">action</a>
+                  <a href="#0">adventure</a>
+                  <a href="#0">fantasy</a>
+                </div>
+                <div class="release">
+                  <span>Release Date : </span> <a href="#0"> November 8 , 2020</a>
+                </div>
+                <div class="movie-schedule">
+                  <div class="item">
+                    09:40
+                  </div>
+                  <div class="item">
+                    13:45
+                  </div>
+                  <div class="item">
+                    15:45
+                  </div>
+                  <div class="item">
+                    19:50
+                  </div>
+                </div>
+                <div class="book-area">
+                  <div class="book-ticket">
+                    <div class="react-item mr-auto">
+                      <a href="#0">
+                        <div class="thumb">
+                          <img src="././images/icons/book.png" alt="icons">
+                        </div>
+                        <span>book ticket</span>
+                      </a>
+                    </div>
+                    <div class="react-item">
+                      <a href="#0" class="popup-video">
+                        <div class="thumb">
+                          <img src="././images/icons/play-button.png" alt="icons">
+                        </div>
+                        <span>watch trailer</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="movie-list">
+              <div class="movie-thumb c-thumb">
+                <a href="movie-details.html" class="w-100 bg_img h-100" data-background="././images/movie/movie10.jpg">
+                  <img class="d-sm-none" src="././images/movie/movie10.jpg" alt="movie">
+                </a>
+              </div>
+              <div class="movie-content bg-one">
+                <h5 class="title">
+                  <a href="movie-details.html">criminal on party</a>
+                </h5>
+                <p class="duration">2hrs 50 min</p>
+                <div class="movie-tags">
+                  <a href="#0">action</a>
+                  <a href="#0">adventure</a>
+                  <a href="#0">fantasy</a>
+                </div>
+                <div class="release">
+                  <span>Release Date : </span> <a href="#0"> November 8 , 2020</a>
+                </div>
+                <div class="movie-schedule">
+                  <div class="item">
+                    09:40
+                  </div>
+                  <div class="item">
+                    13:45
+                  </div>
+                  <div class="item">
+                    15:45
+                  </div>
+                  <div class="item">
+                    19:50
+                  </div>
+                </div>
+                <div class="book-area">
+                  <div class="book-ticket">
+                    <div class="react-item mr-auto">
+                      <a href="#0">
+                        <div class="thumb">
+                          <img src="././images/icons/book.png" alt="icons">
+                        </div>
+                        <span>book ticket</span>
+                      </a>
+                    </div>
+                    <div class="react-item">
+                      <a href="#0" class="popup-video">
+                        <div class="thumb">
+                          <img src="././images/icons/play-button.png" alt="icons">
+                        </div>
+                        <span>watch trailer</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="movie-list">
+              <div class="movie-thumb c-thumb">
+                <a href="movie-details.html" class="w-100 bg_img h-100" data-background="././images/movie/movie11.jpg">
+                  <img class="d-sm-none" src="././images/movie/movie11.jpg" alt="movie">
+                </a>
+              </div>
+              <div class="movie-content bg-one">
+                <h5 class="title">
+                  <a href="movie-details.html">halloween party</a>
+                </h5>
+                <p class="duration">2hrs 50 min</p>
+                <div class="movie-tags">
+                  <a href="#0">action</a>
+                  <a href="#0">adventure</a>
+                  <a href="#0">fantasy</a>
+                </div>
+                <div class="release">
+                  <span>Release Date : </span> <a href="#0"> November 8 , 2020</a>
+                </div>
+                <div class="movie-schedule">
+                  <div class="item">
+                    09:40
+                  </div>
+                  <div class="item">
+                    13:45
+                  </div>
+                  <div class="item">
+                    15:45
+                  </div>
+                  <div class="item">
+                    19:50
+                  </div>
+                </div>
+                <div class="book-area">
+                  <div class="book-ticket">
+                    <div class="react-item mr-auto">
+                      <a href="#0">
+                        <div class="thumb">
+                          <img src="././images/icons/book.png" alt="icons">
+                        </div>
+                        <span>book ticket</span>
+                      </a>
+                    </div>
+                    <div class="react-item">
+                      <a href="#0" class="popup-video">
+                        <div class="thumb">
+                          <img src="././images/icons/play-button.png" alt="icons">
+                        </div>
+                        <span>watch trailer</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="movie-list">
+              <div class="movie-thumb c-thumb">
+                <a href="movie-details.html" class="w-100 bg_img h-100" data-background="././images/movie/movie12.jpg">
+                  <img class="d-sm-none" src="././images/movie/movie12.jpg" alt="movie">
+                </a>
+              </div>
+              <div class="movie-content bg-one">
+                <h5 class="title">
+                  <a href="movie-details.html">the most wanted</a>
+                </h5>
+                <p class="duration">2hrs 50 min</p>
+                <div class="movie-tags">
+                  <a href="#0">action</a>
+                  <a href="#0">adventure</a>
+                  <a href="#0">fantasy</a>
+                </div>
+                <div class="release">
+                  <span>Release Date : </span> <a href="#0"> November 8 , 2020</a>
+                </div>
+                <div class="movie-schedule">
+                  <div class="item">
+                    09:40
+                  </div>
+                  <div class="item">
+                    13:45
+                  </div>
+                  <div class="item">
+                    15:45
+                  </div>
+                  <div class="item">
+                    19:50
+                  </div>
+                </div>
+                <div class="book-area">
+                  <div class="book-ticket">
+                    <div class="react-item mr-auto">
+                      <a href="#0">
+                        <div class="thumb">
+                          <img src="././images/icons/book.png" alt="icons">
+                        </div>
+                        <span>book ticket</span>
+                      </a>
+                    </div>
+                    <div class="react-item">
+                      <a href="#0" class="popup-video">
+                        <div class="thumb">
+                          <img src="././images/icons/play-button.png" alt="icons">
+                        </div>
+                        <span>watch trailer</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- ==========Movie-Section========== -->
+
+  <!-- ===============Footer-Section=============== -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-top">
+        <div class="logo">
+          <a href="#">
+            <img src="./images/footer/footer-logo.png" alt="footer">
+          </a>
+        </div>
+        <ul class="social-icons">
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-google"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-area">
+          <div class="left">
+            <p>Copyright ©️ 2020. All Rights Reserved By <a href="#">3T</a></p>
+          </div>
+          <ul class="links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Terms Of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Feedback</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- =================Footer-Section================== -->
+
+  <script src="./data.js"></script>
+  <script src="./admin.js"></script>
+  <script src="./app.js"></script>
+
+</body>
+
+</html>

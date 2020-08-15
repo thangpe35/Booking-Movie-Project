@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Movie Ticket</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+
+</head>
+
+<body>
+  <!-- ==========Header-Section========== -->
+  <header class="header-section">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="logo">
+          <a href="./movie-list.html">
+            <img src="./images/logo/logo.png" alt="logo">
+          </a>
+        </div>
+        <ul class="menu">
+          <li class="header-button">
+            <a href="#">join us</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- ==========Header-Section========== -->
+
+  <!-- ==============Window-Warning-Section============= -->
+  <section class="window-warning">
+    <div class="lay">
+      <div class="col-lg-8">
+        <div class="checkout-widget checkout-card">
+          <h5 class="title">Payment Option</h5>
+          <h6 class="subtitle">Enter Your Card Details</h6>
+          <form class="payment-card-form">
+            <div class="form-group w-100">
+              <label for="card1">Card Details</label>
+              <input type="text" id="card1">
+              <div class="right-icon">
+                <ion-icon name="lock-closed"></ion-icon>
+              </div>
+            </div>
+            <div class="form-group w-100">
+              <label for="card2"> Name on the Card</label>
+              <input type="text" id="card2">
+            </div>
+            <div class="form-group">
+              <label for="card3">Expiration</label>
+              <input type="text" id="card3" placeholder="MM/YY">
+            </div>
+            <div class="form-group">
+              <label for="card4">CVV</label>
+              <input type="text" id="card4" placeholder="CVV">
+            </div>
+            <div class="form-group check-group">
+              <input id="card5" type="checkbox" checked>
+              <label for="card5">
+                <span class="title">QuickPay</span>
+                <span class="info">Save this card information to my Boleto account and make faster
+                  payments.</span>
+              </label>
+            </div>
+            <div class="form-group">
+              <input id="make-payment" type="submit" class="custom-button" value="make payment">
+            </div>
+          </form>
+          <p class="notice">
+            By Clicking "Make Payment" you agree to the <a href="#">terms and conditions</a>
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- ==============Window-Warning-Section============= -->
+
+  <!-- ==============Banner-Section=============== -->
+  <section class="details-banner hero-area bg_img seat-plan-banner">
+    <div class="container">
+      <div class="details-banner-wrapper">
+        <h3 id="title-movie" class="tittle"></h3>
+        <div class="tags">
+          <a id="time-tag" href="#"></a>
+          <a href="#0">| English - 2D</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==============Banner-Section================ -->
+
+  <!-- ===============Page-Title================= -->
+  <!-- <section class="page-tittle">
+    <div class="container">
+      <div class="page-tittle-area">
+        <div class="item">
+          <a href="#" class="back-button">
+            <i style='font-size:22px' class='fas'>&#xf100;</i>back
+          </a>
+        </div>
+        <div class="item date-item">
+          <span class="date">MON, SEP 09 2020</span>
+          <div class="custom-select">
+            <select id="select-bar" class="select-bar" value='sc2'>
+              <option value="sc1">09:40</option>
+              <option value="sc2">13:40</option>
+              <option value="sc3">15:40</option>
+              <option value="sc4">19:40</option>
+            </select>
+          </div>
+        </div>
+        <div class="item">
+          <h5 class="tittle">05:00</h5>
+          <p>Mins Left</p>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- ================Page-Tittle================ -->
+
+  <!-- ================Movie-Section================= -->
+  <section class="seat-plan-section">
+    <div id="container" class="container">
+      <ul class="showcase">
+        <!-- <li>
+          <div class="seat-couple">
+            <img src="./images/movie/seat02-free.png" alt="seat-couple">
+          </div>
+          <small>Couple Seat</small>
+        </li>
+        <li>
+          <div class="seat-single">
+            <img src="./images/movie/seat01-free.png" alt="seat-single">
+          </div>
+          <small>Single Seat</small>
+        </li> -->
+        <li>
+          <div class="seat-single seat-free">
+            <img src="./images/movie/seat01-free.png" alt="seat-free">
+          </div>
+          <small>N/A</small>
+        </li>
+        <li>
+          <div class=" seat-single seat-selecting">
+            <img src="./images/movie/seat01-selecting.png" alt="seat-selecting">
+          </div>
+          <small>Selecting</small>
+        </li>
+        <li>
+          <div class=" seat-single seat-booked">
+            <img src="./images/movie/seat01-booked.png" alt="seat-booked">
+          </div>
+          <small>Booked</small>
+        </li>
+      </ul>
+
+      <div class="screen-area">
+        <h4 class="screen">screen</h4>
+        <div class="screen-thumb">
+          <img src="./images/movie/screen-thumb.png" alt="movie">
+        </div>
+        <h5 class="subtitle">Siver plus</h5>
+        <div class="screen-wrapper">
+          <ul class="seat-area">
+          </ul>
+        </div>
+
+        <h5 class="subtitle">Silver plus</h5>
+        <div class="screen-wrapper">
+          <ul class="seat-area couple">
+            <!-- <li class="seat-line">
+              <span>e</span>
+              <ul class="seat--area">
+                <li class="front-seat">
+                  <ul>
+                    <li class="single-seat">
+                      <img src="./images/movie/seat02.png" alt="seat">
+                    </li>
+                    <li class="single-seat">
+                      <img src="./images/movie/seat02.png" alt="seat">
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <span>e</span>
+            </li> -->
+          </ul>
+        </div>
+        <div class="proceed-book">
+          <div class="proceed-to-book">
+            <div class="book-item">
+              <span>You have Choosed Seat</span>
+              <h3 class="title"></h3>
+            </div>
+            <div class="book-item">
+              <span>total price</span>
+              <h3 id="total-price" class="title">$0</h3>
+            </div>
+            <div class="book-item">
+              <a href="#" class="custom-button">proceed</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </section>
+  <!-- ================Movie-Section============= -->
+
+  <!-- ===============Footer-Section=============== -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-top">
+        <div class="logo">
+          <a href="#">
+            <img src="./images/footer/footer-logo.png" alt="footer">
+          </a>
+        </div>
+        <ul class="social-icons">
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-google"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-area">
+          <div class="left">
+            <p>Copyright ©️ 2020. All Rights Reserved By <a href="#">3T</a></p>
+          </div>
+          <ul class="links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Terms Of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Feedback</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- =================Footer-Section================== -->
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

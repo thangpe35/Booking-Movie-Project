@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Booking Movie Ticket</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</head>
+
+<body>
+  <!-- ==========Header-Section========== -->
+  <header class="header-section">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="logo">
+          <img src="./images/logo/logo.png" alt="logo">
+        </div>
+        <ul class="menu">
+          <li class="header-button">
+            <a href="#">Admin</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- ==========Header-Section========== -->
+
+  <div class="wrapper-all">
+    <!-- ==========Movie-Section========== -->
+    <section class="movie-section padding-top padding-bottom">
+      <div class="container">
+        <div class="tab-item active">
+          <div id="movie-area" class="movie-area mb-10">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==========Movie-Section========== -->
+
+    <!-- ================Movie-Facility================= -->
+    <div class="movie-admin">
+      <div class="container">
+        <div class="row">
+
+          <div class="checkout-widget checkout-card">
+            <h5 class="title">Upload movie</h5>
+            <!-- <h6 class="subtitle">Upload movie</h6> -->
+            <form class="payment-card-form">
+              <div class="form-group w-100">
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title">
+              </div>
+              <div class="form-group w-100">
+                <label for="thumb">Thumb</label>
+                <input type="text" name="thumb" id="thumb">
+              </div>
+              <div class="form-group w-100">
+                <label for="duration"> Duration</label>
+                <input type="text" name="duration" id="duration">
+              </div>
+              <div class="form-group w-100">
+                <label for="category"> Category</label>
+                <input type="text" name="category" id="category">
+              </div>
+              <div class="form-group w-100">
+                <label for="release"> Release</label>
+                <input type="date" name="release" id="release">
+              </div>
+              <div class="form-group w-100">
+                <label for="schedule"> Schedule</label>
+                <input type="time" name="schedule" id="schedule">
+              </div>
+              <div class="form-group">
+                <input id="upload" type="click" class="custom-button" value="Upload">
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- ================Movie-Facility============= -->
+  </div>
+
+  <!-- ===============Footer-Section=============== -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-top">
+        <div class="logo">
+          <a href="#">
+            <img src="./images/footer/footer-logo.png" alt="footer">
+          </a>
+        </div>
+        <ul class="social-icons">
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-google"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-area">
+          <div class="left">
+            <p>Copyright ©️ 2020. All Rights Reserved By <a href="#">3T</a></p>
+          </div>
+          <ul class="links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Terms Of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Feedback</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- =================Footer-Section================== -->
+
+
+  <script src="admin.js"></script>
+  <script src="./data.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

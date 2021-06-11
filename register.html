@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login-container">
+        <div class="aside-right">
+            <div class="header">
+                <h2>WELCOME TO BOOKING MOVIE</h2>
+            </div>
+            <form id="register-form">
+                <div class="input-name-wrapper">
+                    <div class="input-wrapper" >
+                        <input type="text" placeholder="First Name" name="firstname">
+                        <div class="error" id="first-name-error"></div>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="text" placeholder="Last Name" name="lastname">
+                        <div class="error" id="last-name-error"></div>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="text" placeholder="Email" name="email">
+                        <div class="error" id="email-error"></div>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="password" placeholder="Password" name="password">
+                        <div class="error" id="password-error"></div>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="password" placeholder="Confirm Password" name="confirmPassword">
+                        <div class="error" id="confirmPassword-error"></div>
+                    </div>
+
+                    <div class="form-action">
+                        <button class="custom-button" type="submit" id="btn">
+                            Register
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <div class="test">
+                <span id="redirect-to-Regiser">
+                    Already have an account?<a href="./login.html"> Login</a> 
+                </span>
+            </div>  
+        </div>
+    </div>
+    <script src="./register.js"></script>
+</body>
+</html>

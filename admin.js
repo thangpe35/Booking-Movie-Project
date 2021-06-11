@@ -106,8 +106,9 @@ upload.onclick = function (e) {
   category = categoryElement.value;
   release = releaseElement.value;
   schedule = scheduleElement.value;
+  schedule = scheduleElement.value;
 
-  data = { title: title, thumb: thumb, duration: duration, category: [category], release: release, schedule: [schedule] };
+  data = { title: title, thumb: thumb, duration: duration, category: [category], release: release, schedule: [schedule] , schedule: [schedule] };
   datas.push(data);
   localStorage.setItem('datas', JSON.stringify(datas));
   titleElement.value = '';

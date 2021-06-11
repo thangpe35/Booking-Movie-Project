@@ -4,7 +4,7 @@ let datas = [
     thumb: './images/movie/movie01.jpg',
     duration: '2hrs 50 min',
     category: ['action', 'adventure', 'fantasy'],
-    release: 'November 8 2020',
+    release: 'November 8 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
   {
@@ -12,7 +12,7 @@ let datas = [
     thumb: './images/movie/movie02.jpg',
     duration: '2hrs 50 min',
     category: ['action', 'adventure', 'fantasy'],
-    release: 'November 8 , 2020',
+    release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
   {
@@ -20,7 +20,7 @@ let datas = [
     thumb: './images/movie/movie03.jpg',
     duration: '2hrs 50 min',
     category: ['action', 'adventure', 'fantasy'],
-    release: 'November 8 , 2020',
+    release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
   {
@@ -28,7 +28,7 @@ let datas = [
     thumb: './images/movie/movie04.jpg',
     duration: '2hrs 50 min',
     category: ['action', 'adventure', 'fantasy'],
-    release: 'November 8 , 2020',
+    release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
   {
@@ -36,7 +36,7 @@ let datas = [
     thumb: './images/movie/movie05.jpg',
     duration: '2hrs 50 min',
     category: ['action', 'adventure', 'fantasy'],
-    release: 'November 8 , 2020',
+    release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
   {
@@ -44,7 +44,7 @@ let datas = [
     thumb: './images/movie/movie06.jpg',
     duration: '2hrs 50 min',
     category: ['action', 'adventure', 'fantasy'],
-    release: 'November 8 , 2020',
+    release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
   {
@@ -52,7 +52,7 @@ let datas = [
     thumb: './images/movie/movie07.jpg',
     duration: '2hrs 50 min',
     category: ['action', 'adventure', 'fantasy'],
-    release: 'November 8 , 2020',
+    release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
   {
@@ -60,7 +60,7 @@ let datas = [
     thumb: './images/movie/movie08.jpg',
     duration: '2hrs 50 min',
     category: ['action', 'adventure', 'fantasy'],
-    release: 'November 8 , 2020',
+    release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
   {
@@ -68,7 +68,7 @@ let datas = [
     thumb: './images/movie/movie09.jpg',
     duration: '2hrs 50 min',
     category: ['action', 'adventure', 'fantasy'],
-    release: 'November 8 , 2020',
+    release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
 ];

@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="./test1.css">
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
 </head>
@@ -74,7 +75,14 @@
               </div>
               <div class="form-group w-100">
                 <label for="schedule"> Schedule</label>
-                <input type="time" name="schedule" id="schedule">
+                <!-- <input type="time" name="schedule" id="schedule"> -->
+                <select placeholder="choose">
+                  <option>2h30</option>
+                  <option>4h30</option>
+                  <option>15h30</option>
+                  <option>18h</option>
+                  <option>21h</option>
+                </select>
               </div>
               <div class="form-group">
                 <input id="upload" type="click" class="custom-button" value="Upload">
@@ -138,10 +146,13 @@
   </footer>
   <!-- =================Footer-Section================== -->
 
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
   <script src="admin.js"></script>
   <script src="./data.js"></script>
   <script src="app.js"></script>
+  <script src="test.js"></script>
+
 </body>
 
 </html>

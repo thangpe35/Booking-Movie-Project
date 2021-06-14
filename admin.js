@@ -91,7 +91,6 @@ upload.onclick = function (e) {
   } else {
     datas = JSON.parse(localStorage.getItem('datas'));
   }
-
   e.preventDefault();
   const titleElement = document.querySelector('#title')
   const thumbElement = document.querySelector('#thumb');
@@ -105,10 +104,9 @@ upload.onclick = function (e) {
   duration = durationElement.value;
   category = categoryElement.value;
   release = releaseElement.value;
-  schedule = scheduleElement.value;
-  schedule = scheduleElement.value;
+  schedule = [scheduleElement.value];
 
-  data = { title: title, thumb: thumb, duration: duration, category: [category], release: release, schedule: [schedule] , schedule: [schedule] };
+  data = { title: title, thumb: thumb, duration: duration, category: [category], release: release, schedule: [schedule] };
   datas.push(data);
   localStorage.setItem('datas', JSON.stringify(datas));
   titleElement.value = '';

@@ -2,6 +2,7 @@
     background-size: cover;
     display: flex;
     align-items: center;
+    
 }
 html{
     background: url(./images/account-bg.jpg);
@@ -25,7 +26,7 @@ html{
     display: flex;
     align-items: center;    
 }
-input{
+.input-name-wrapper .input-wrapper > input{
     height: 45px;
     border-radius: 0;
     border: none;
@@ -52,6 +53,7 @@ button{
 }
 span{
  font-size: 20px;   
+ cursor: pointer;
 }
 
 a{

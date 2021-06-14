@@ -65,6 +65,7 @@ span, p {
   z-index: 90;
 }
 
+
 .header-active {
   background-color: #0a1e5e;
   transition: ease-in-out 0.4s;
@@ -1654,7 +1655,34 @@ p:last-child {
 }
 /* ------------------Admin------------------- */
 
+
+
 /* -------------Upload----------------- */
 #upload {
   max-width: 90px;
+}
+
+
+/* #schedule::after{
+        content:"+";
+        cursor:pointer;
+        position:absolute;
+        right:4px;
+        top:calc(50% - 10px);
+        width:20px;
+        height:20px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:.8em;
+        color:#fff;
+        border-radius:20px;
+        background:rgba(0,0,0,0);
+} */
+.multi_select_box{
+  width: 400px;
+  margin: 80px auto;
+}
+.multi_select_box select{
+  width: 100%;
 }

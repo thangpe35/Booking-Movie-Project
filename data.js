@@ -1,7 +1,7 @@
 let datas = [
   {
     title: 'alone',
-    thumb: './images/movie/movie01.jpg',
+    thumb: 'movie01.jpg',
     duration: '2hrs 50 min',
     category: ['action', 'adventure', 'fantasy'],
     release: 'November 8 2021',
@@ -9,15 +9,15 @@ let datas = [
   },
   {
     title: 'mars',
-    thumb: './images/movie/movie02.jpg',
+    thumb: 'movie02.jpg',
     duration: '2hrs 50 min',
-    category: ['action', 'adventure', 'fantasy'],
+    category: ['action', 'adventure','fantasy'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
   {
     title: 'venus',
-    thumb: './images/movie/movie03.jpg',
+    thumb: 'movie03.jpg',
     duration: '2hrs 50 min',
     category: ['action', 'adventure', 'fantasy'],
     release: 'November 8 , 2021',
@@ -25,7 +25,7 @@ let datas = [
   },
   {
     title: 'on watch',
-    thumb: './images/movie/movie04.jpg',
+    thumb: 'movie04.jpg',
     duration: '2hrs 50 min',
     category: ['action', 'adventure', 'fantasy'],
     release: 'November 8 , 2021',
@@ -33,7 +33,7 @@ let datas = [
   },
   {
     title: 'fury',
-    thumb: './images/movie/movie05.jpg',
+    thumb: 'movie05.jpg',
     duration: '2hrs 50 min',
     category: ['action', 'adventure', 'fantasy'],
     release: 'November 8 , 2021',
@@ -41,7 +41,7 @@ let datas = [
   },
   {
     title: 'trooper',
-    thumb: './images/movie/movie06.jpg',
+    thumb: 'movie06.jpg',
     duration: '2hrs 50 min',
     category: ['action', 'adventure', 'fantasy'],
     release: 'November 8 , 2021',
@@ -49,7 +49,7 @@ let datas = [
   },
   {
     title: 'horror night',
-    thumb: './images/movie/movie07.jpg',
+    thumb: 'movie07.jpg',
     duration: '2hrs 50 min',
     category: ['action', 'adventure', 'fantasy'],
     release: 'November 8 , 2021',
@@ -57,7 +57,7 @@ let datas = [
   },
   {
     title: 'the lost name',
-    thumb: './images/movie/movie08.jpg',
+    thumb: 'movie08.jpg',
     duration: '2hrs 50 min',
     category: ['action', 'adventure', 'fantasy'],
     release: 'November 8 , 2021',
@@ -65,12 +65,15 @@ let datas = [
   },
   {
     title: 'calm stedfast',
-    thumb: './images/movie/movie09.jpg',
+    thumb: 'movie09.jpg',
     duration: '2hrs 50 min',
     category: ['action', 'adventure', 'fantasy'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
+  // {
+  //   thumb: "movie12"
+  // }
 ];
 
 function saveDataToLS() {

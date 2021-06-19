@@ -94,7 +94,7 @@ document.addEventListener("click", closeAllSelect);
 
 // //////////////////////////////////////////////////
 // // Pop up 
-// const watchTrailer = document.querySelector('#movie-area');
+const watchTrailer = document.querySelector('#movie-area');
 const windowWarning = document.querySelector('.window-warning');
 
 function controlVideo(vidcontrol) {
@@ -103,20 +103,20 @@ function controlVideo(vidcontrol) {
   iframe.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
 }
 
-// watchTrailer.addEventListener('click', function (e) {
-//   if (e.target.parentElement.className == 'thumb') {
-//     windowWarning.style.display = 'block';
-//   }
-//   console.log(e.target.parentElement);
-// })
-
-windowWarning.addEventListener('click', function (e) {
-  console.log(e.target.className);
-  if (e.target.className == 'lay') {
-    windowWarning.style.display = 'none';
-    controlVideo();
+watchTrailer.addEventListener('click', function (e) {
+  if (e.target.parentElement.className == 'thumb') {
+    windowWarning.style.display = 'block';
   }
+  console.log(e.target.parentElement);
 })
+
+// windowWarning.addEventListener('click', function (e) {
+//   console.log(e.target.className);
+//   if (e.target.className == 'lay') {
+//     windowWarning.style.display = 'none';
+//     controlVideo();
+//   }
+// })
 // /////////////////////////////////////////////////
 
 // ///////////////////////////////////////////////

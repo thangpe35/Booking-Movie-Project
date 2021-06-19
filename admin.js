@@ -10,13 +10,13 @@ function createListMovie() {
   } else {
     datas = JSON.parse(localStorage.getItem('datas'));
   }
-
+  console.log(datas);
   for (let i = 0; i < datas.length; i++) {
     movieList +=
       `<div class="movie-list">
     <div class="movie-thumb c-thumb">
-      <a href="#0" class="w-100 bg_img h-100" datas-background="./${datas[i].thumb}">
-        <img class="d-sm-none" src="${datas[i].thumb}" alt="movie">
+      <a href="#0" class="w-100 bg_img h-100" datas-background="./images/movie/${datas[i].thumb}">
+        <img class="d-sm-none" src="./images/movie/${datas[i].thumb}" alt="movie">
       </a>
     </div>
     <div class="movie-content bg-one">
@@ -83,8 +83,8 @@ appendListMovie();
 // Upload movie
 const form = document.querySelector('.payment-card-form');
 const upload = document.querySelector('#upload');
-
 upload.onclick = function (e) {
+
   let datas;
   if (localStorage.getItem('datas') === null) {
     datas = [];
@@ -98,16 +98,37 @@ upload.onclick = function (e) {
   const categoryElement = document.querySelector('#category');
   const releaseElement = document.querySelector('#release');
   const scheduleElement = document.querySelector('#schedule');
-
+  // const option1Element = document.querySelector('#op-1');
+  // const option2Element = document.querySelector('#op-2');
+  // const option3Element = document.querySelector('#op-3');
+  // const option4Element = document.querySelector('#op-4');
   title = titleElement.value;
   thumb = thumbElement.value;
   duration = durationElement.value;
   category = categoryElement.value;
   release = releaseElement.value;
-  schedule = [scheduleElement.value];
 
-  data = { title: title, thumb: thumb, duration: duration, category: [category], release: release, schedule: [schedule] };
+  schedule = scheduleElement.value;
+  console.log(schedule);
+  console.log("Input: " +typeof schedule);
+  var schedule_arr = schedule.split(" ");
+  console.log(typeof schedule_arr);
+  console.log(schedule_arr)
+  var category_arr = category.split(",");
+  // op1 = option1Element.value;
+  // op2 = option2Element.value;
+  // op3 = option3Element.value;
+  // op4 = option4Element.value;
+  // dataOption = {
+  //   option1Element: op1,
+  //   option2Element: op2,
+  //   option3Element: op3,
+  //   option4Element: op4,
+  // }
+  // console.log(schedule);
+  data = { title: title, thumb: thumb, duration: duration, category: category_arr, release: release, schedule: schedule_arr };
   datas.push(data);
+  // datas.push(data.schedule);
   localStorage.setItem('datas', JSON.stringify(datas));
   titleElement.value = '';
   releaseElement.value = '';

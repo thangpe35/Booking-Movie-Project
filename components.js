@@ -19,14 +19,14 @@ components.login = `
             </div>
             <div class="form-action">
                 <button class="custom-button" type="submit" id="btn">
-                    Login
+                    Đăng nhập
                 </button>
             </div>
         </div>
     </form>
     <div class="test">
         <span id="redirect-to-regiser">
-            Don't have an account? Register
+            Bạn chưa có tài khoản ? Đăng ký
         </span>
     </div>
 </div>
@@ -41,11 +41,11 @@ components.register = `<div class="login-container">
     <form id="register-form">
         <div class="input-name-wrapper">
             <div class="input-wrapper" >
-                <input type="text" placeholder="First Name" name="firstName">
+                <input type="text" placeholder="Họ và Tên Đệm" name="firstName">
                 <div class="error" id="first-name-error"></div>
             </div>
             <div class="input-wrapper">
-                <input type="text" placeholder="Last Name" name="lastName">
+                <input type="text" placeholder="Tên" name="lastName">
                 <div class="error" id="last-name-error"></div>
             </div>
             <div class="input-wrapper">
@@ -63,14 +63,14 @@ components.register = `<div class="login-container">
 
             <div class="form-action">
                 <button class="custom-button" type="submit" id="btn">
-                    Register
+                    Đăng ký
                 </button>
             </div>
         </div>
     </form>
     <div class="test">
         <span id="redirect-to-login">
-            Already have an account? Login
+            Bạn đã có tài khoản? Đăng nhập
         </span>
     </div>  
 </div>

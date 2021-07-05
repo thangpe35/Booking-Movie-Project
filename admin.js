@@ -15,8 +15,8 @@ function createListMovie() {
     movieList +=
       `<div class="movie-list">
     <div class="movie-thumb c-thumb">
-      <a href="#0" class="w-100 bg_img h-100" datas-background="./images/movie/${datas[i].thumb}">
-        <img class="d-sm-none" src="./images/movie/${datas[i].thumb}" alt="movie">
+      <a href="#0" class="w-100 bg_img h-100" datas-background="./images/movie/${datas[i].thumb}.jpg">
+        <img class="d-sm-none" src="./images/movie/${datas[i].thumb}.jpg" alt="movie">
       </a>
     </div>
     <div class="movie-content bg-one">
@@ -45,7 +45,7 @@ function createListMovie() {
       <div class="book-area">
         <div class="book-ticket">
           <div class="react-item">
-            <a href="#0" class="popup-video">
+            <a href="./trailer/${datas.trailer}" class="popup-video">
               <div class="thumb">
                 <img src="././images/icons/play-button.png" alt="icons">
               </div>

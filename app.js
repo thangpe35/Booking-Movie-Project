@@ -94,21 +94,21 @@ document.addEventListener("click", closeAllSelect);
 
 // //////////////////////////////////////////////////
 // // Pop up 
-const watchTrailer = document.querySelector('#movie-area');
-const windowWarning = document.querySelector('.window-warning');
+// const watchTrailer = document.querySelector('#movie-area');
+// const windowWarning = document.querySelector('.window-warning');
 
-function controlVideo(vidcontrol) {
-  var div = document.querySelector(".lay");
-  var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
-  iframe.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
-}
+// function controlVideo(vidcontrol) {
+//   var div = document.querySelector(".lay");
+//   var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+//   iframe.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+// }
 
-watchTrailer.addEventListener('click', function (e) {
-  if (e.target.parentElement.className == 'thumb') {
-    windowWarning.style.display = 'block';
-  }
-  console.log(e.target.parentElement);
-})
+// watchTrailer.addEventListener('click', function (e) {
+//   if (e.target.parentElement.className == 'thumb') {
+//     windowWarning.style.display = 'block';
+//   }
+//   console.log(e.target.parentElement);
+// })
 
 // windowWarning.addEventListener('click', function (e) {
 //   console.log(e.target.className);

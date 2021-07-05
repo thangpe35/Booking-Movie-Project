@@ -128,7 +128,7 @@ const totalPriceElement = document.querySelector('#total-price');
 const seats = document.querySelectorAll('.single-seat');
 
 let arrNumberSeatSelecting = [];
-let ticketPrice = 10;
+let ticketPrice = 30000;
 let totalPrice;
 
 document.addEventListener('DOMContentLoaded', updateFromLS);
@@ -155,7 +155,7 @@ function updateTotalPriceFromLS() {
   } else {
     totalPrice = JSON.parse(localStorage.getItem('totalPrice'));
   }
-  totalPriceElement.innerText = '$' + totalPrice;
+  totalPriceElement.innerText = totalPrice +"VNĐ";
 
 }
 
@@ -228,8 +228,8 @@ function updateTotalPrice() {
       totalSeatCouple++;
     }
   })
-  totalPrice = totalSeat * ticketPrice + totalSeatCouple * ticketPrice * 3;
-  totalPriceElement.innerText = '$' + totalPrice;
+  totalPrice = totalSeat * ticketPrice + totalSeatCouple * ticketPrice * 2;
+  totalPriceElement.innerText = totalPrice +"VNĐ";
 }
 
 // Add event listener for seat and seat couple

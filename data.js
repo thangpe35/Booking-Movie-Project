@@ -1,73 +1,73 @@
 let datas = [
   {
-    title: 'alone',
-    thumb: 'movie01.jpg',
-    duration: '2hrs 50 min',
-    category: ['action', 'adventure', 'fantasy'],
+    title: '50 Sắc Thái',
+    thumb: '50sacthai',
+    duration: '2hrs 5 min',
+    category: ['Tình Cảm', '18+', 'Cuộc Sống'],
     release: 'November 8 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
   {
-    title: 'mars',
-    thumb: 'movie02.jpg',
+    title: 'Bố Già',
+    thumb: 'bogia',
     duration: '2hrs 50 min',
-    category: ['action', 'adventure','fantasy'],
+    category: ['Tình Cảm', 'Gia Đình','Cuộc Sống'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
   {
-    title: 'venus',
-    thumb: 'movie03.jpg',
+    title: 'Cua Lại Vợ Bầu',
+    thumb: 'cualaivobau',
     duration: '2hrs 50 min',
-    category: ['action', 'adventure', 'fantasy'],
+    category: ['Tình Cảm', 'Gia Đình', 'Cuộc Sống'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
   {
-    title: 'on watch',
-    thumb: 'movie04.jpg',
+    title: 'Avenger Endgame',
+    thumb: 'avenger',
     duration: '2hrs 50 min',
-    category: ['action', 'adventure', 'fantasy'],
+    category: ['Hành Động', 'Kịch Tính', 'Viễn Tưởng'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
   {
-    title: 'fury',
-    thumb: 'movie05.jpg',
+    title: 'Captain America',
+    thumb: 'captain',
     duration: '2hrs 50 min',
-    category: ['action', 'adventure', 'fantasy'],
+    category: ['Hành Động', 'Kịch Tính', 'Chiến Tranh'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
   {
-    title: 'trooper',
-    thumb: 'movie06.jpg',
+    title: 'Em Chưa 18',
+    thumb: 'emchua18',
     duration: '2hrs 50 min',
-    category: ['action', 'adventure', 'fantasy'],
+    category: ['Tình Cảm', 'Gia Đình', '16+'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
   {
-    title: 'horror night',
-    thumb: 'movie07.jpg',
+    title: 'Lật Mặt',
+    thumb: 'latmat',
     duration: '2hrs 50 min',
-    category: ['action', 'adventure', 'fantasy'],
+    category: ['Hành Động', 'Tình Cảm', 'Gia Đình'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
   {
-    title: 'the lost name',
-    thumb: 'movie08.jpg',
+    title: 'Ant Man',
+    thumb: 'antman',
     duration: '2hrs 50 min',
-    category: ['action', 'adventure', 'fantasy'],
+    category: ['Hành Động', 'Khoa Học', 'Gia Đình'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },
   {
-    title: 'calm stedfast',
-    thumb: 'movie09.jpg',
+    title: 'Gái Già Lắm Chiêu',
+    thumb: 'gaigialamchieu',
     duration: '2hrs 50 min',
-    category: ['action', 'adventure', 'fantasy'],
+    category: ['Tình Cảm', 'Gia Đình', 'Cuộc Sống'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50']
   },

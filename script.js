@@ -404,18 +404,18 @@ document.addEventListener("click", closeAllSelect);
 // pop up
 
 
-// const btnProceed = document.querySelector('.proceed-book .custom-button');
-// const windowWarning = document.querySelector('.window-warning');
+const btnProceed = document.querySelector('.proceed-book .custom-button');
+const windowWarning = document.querySelector('.window-warning');
 
-// btnProceed.addEventListener('click', function () {
-//   windowWarning.style.display = 'block';
-// })
+btnProceed.addEventListener('click', function () {
+  windowWarning.style.display = 'block';
+})
 
-// windowWarning.addEventListener('click', function (e) {
-//   if (e.target.className == 'lay') {
-//     windowWarning.style.display = 'none';
-//   }
-// })
+windowWarning.addEventListener('click', function (e) {
+  if (e.target.className == 'lay') {
+    windowWarning.style.display = 'none';
+  }
+})
 
 ///////////////////////////////////////////////////
 

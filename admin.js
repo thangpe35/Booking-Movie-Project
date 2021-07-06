@@ -49,7 +49,7 @@ function createListMovie() {
               <div class="thumb">
                 <img src="././images/icons/play-button.png" alt="icons">
               </div>
-              <span>watch trailer</span>`
+             <span>watch trailer</span>`
 
     if (window.location.pathname == '/admin.html') {
       movieList += `<button class='delete-movie custom-button'>Delete</button>
@@ -98,6 +98,7 @@ upload.onclick = function (e) {
   const categoryElement = document.querySelector('#category');
   const releaseElement = document.querySelector('#release');
   const scheduleElement = document.querySelector('#schedule');
+  const trailerElement = document.querySelector("#link")
   // const option1Element = document.querySelector('#op-1');
   // const option2Element = document.querySelector('#op-2');
   // const option3Element = document.querySelector('#op-3');
@@ -107,8 +108,8 @@ upload.onclick = function (e) {
   duration = durationElement.value;
   category = categoryElement.value;
   release = releaseElement.value;
-
   schedule = scheduleElement.value;
+  trailer = trailerElement.value;
   console.log(schedule);
   console.log("Input: " +typeof schedule);
   var schedule_arr = schedule.split(" ");
@@ -126,7 +127,7 @@ upload.onclick = function (e) {
   //   option4Element: op4,
   // }
   // console.log(schedule);
-  data = { title: title, thumb: thumb, duration: duration, category: category_arr, release: release, schedule: schedule_arr };
+  data = { title: title, thumb: thumb, duration: duration, category: category_arr, release: release, schedule: schedule_arr , link: trailer};
   datas.push(data);
   // datas.push(data.schedule);
   localStorage.setItem('datas', JSON.stringify(datas));

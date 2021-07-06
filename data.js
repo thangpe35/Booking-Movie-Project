@@ -15,7 +15,7 @@ let datas = [
     category: ['Tình Cảm', 'Gia Đình','Cuộc Sống'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50'],
-    link:"https://www.youtube.com/watch?v=K6_Ftl7kD1g"
+    link:"https://www.youtube.com/watch?v=jluSu8Rw6YE"
   },
   {
     title: 'Cua Lại Vợ Bầu',
@@ -24,7 +24,7 @@ let datas = [
     category: ['Tình Cảm', 'Gia Đình', 'Cuộc Sống'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50'],
-    link:"https://www.youtube.com/watch?v=K6_Ftl7kD1g"
+    link:"https://www.youtube.com/watch?v=7V7SBjaQQ4g"
   },
   {
     title: 'Avenger Endgame',
@@ -33,7 +33,7 @@ let datas = [
     category: ['Hành Động', 'Kịch Tính', 'Viễn Tưởng'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50'],
-    link:"https://www.youtube.com/watch?v=K6_Ftl7kD1g"
+    link:"https://www.youtube.com/watch?v=TcMBFSGVi1c"
   },
   {
     title: 'Captain America',
@@ -42,7 +42,7 @@ let datas = [
     category: ['Hành Động', 'Kịch Tính', 'Chiến Tranh'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50'],
-    link:"https://www.youtube.com/watch?v=K6_Ftl7kD1g"
+    link:"https://www.youtube.com/watch?v=JerVrbLldXw"
   },
   {
     title: 'Em Chưa 18',
@@ -51,7 +51,7 @@ let datas = [
     category: ['Tình Cảm', 'Gia Đình', '16+'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50'],
-    link:"https://www.youtube.com/watch?v=K6_Ftl7kD1g"
+    link:"https://www.youtube.com/watch?v=_affkHceSj4"
   },
   {
     title: 'Lật Mặt',
@@ -60,7 +60,7 @@ let datas = [
     category: ['Hành Động', 'Tình Cảm', 'Gia Đình'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50'],
-    link:"https://www.youtube.com/watch?v=K6_Ftl7kD1g"
+    link:"https://www.youtube.com/watch?v=kBY2k3G6LsM"
   },
   {
     title: 'Ant Man',
@@ -69,7 +69,7 @@ let datas = [
     category: ['Hành Động', 'Khoa Học', 'Gia Đình'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50'],
-    link:"https://www.youtube.com/watch?v=K6_Ftl7kD1g"
+    link:"https://www.youtube.com/watch?v=pWdKf3MneyI"
   },
   {
     title: 'Gái Già Lắm Chiêu',
@@ -78,7 +78,7 @@ let datas = [
     category: ['Tình Cảm', 'Gia Đình', 'Cuộc Sống'],
     release: 'November 8 , 2021',
     schedule: ['09:40', '13:45', '15:45', '19:50'],
-    link:"https://www.youtube.com/watch?v=K6_Ftl7kD1g"
+    link:"https://www.youtube.com/watch?v=fNE3wgaHr18"
   },
 ];
 

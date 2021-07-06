@@ -5,7 +5,8 @@ let datas = [
     duration: '2hrs 5 min',
     category: ['Tình Cảm', '18+', 'Cuộc Sống'],
     release: 'November 8 2021',
-    schedule: ['09:40', '13:45', '15:45', '19:50']
+    schedule: ['09:40', '13:45', '15:45', '19:50'],
+    link:"https://www.youtube.com/watch?v=K6_Ftl7kD1g"
   },
   {
     title: 'Bố Già',
@@ -13,7 +14,8 @@ let datas = [
     duration: '2hrs 50 min',
     category: ['Tình Cảm', 'Gia Đình','Cuộc Sống'],
     release: 'November 8 , 2021',
-    schedule: ['09:40', '13:45', '15:45', '19:50']
+    schedule: ['09:40', '13:45', '15:45', '19:50'],
+    link:"https://www.youtube.com/watch?v=K6_Ftl7kD1g"
   },
   {
     title: 'Cua Lại Vợ Bầu',
@@ -21,7 +23,8 @@ let datas = [
     duration: '2hrs 50 min',
     category: ['Tình Cảm', 'Gia Đình', 'Cuộc Sống'],
     release: 'November 8 , 2021',
-    schedule: ['09:40', '13:45', '15:45', '19:50']
+    schedule: ['09:40', '13:45', '15:45', '19:50'],
+    link:"https://www.youtube.com/watch?v=K6_Ftl7kD1g"
   },
   {
     title: 'Avenger Endgame',
@@ -29,7 +32,8 @@ let datas = [
     duration: '2hrs 50 min',
     category: ['Hành Động', 'Kịch Tính', 'Viễn Tưởng'],
     release: 'November 8 , 2021',
-    schedule: ['09:40', '13:45', '15:45', '19:50']
+    schedule: ['09:40', '13:45', '15:45', '19:50'],
+    link:"https://www.youtube.com/watch?v=K6_Ftl7kD1g"
   },
   {
     title: 'Captain America',
@@ -37,7 +41,8 @@ let datas = [
     duration: '2hrs 50 min',
     category: ['Hành Động', 'Kịch Tính', 'Chiến Tranh'],
     release: 'November 8 , 2021',
-    schedule: ['09:40', '13:45', '15:45', '19:50']
+    schedule: ['09:40', '13:45', '15:45', '19:50'],
+    link:"https://www.youtube.com/watch?v=K6_Ftl7kD1g"
   },
   {
     title: 'Em Chưa 18',
@@ -45,7 +50,8 @@ let datas = [
     duration: '2hrs 50 min',
     category: ['Tình Cảm', 'Gia Đình', '16+'],
     release: 'November 8 , 2021',
-    schedule: ['09:40', '13:45', '15:45', '19:50']
+    schedule: ['09:40', '13:45', '15:45', '19:50'],
+    link:"https://www.youtube.com/watch?v=K6_Ftl7kD1g"
   },
   {
     title: 'Lật Mặt',
@@ -53,7 +59,8 @@ let datas = [
     duration: '2hrs 50 min',
     category: ['Hành Động', 'Tình Cảm', 'Gia Đình'],
     release: 'November 8 , 2021',
-    schedule: ['09:40', '13:45', '15:45', '19:50']
+    schedule: ['09:40', '13:45', '15:45', '19:50'],
+    link:"https://www.youtube.com/watch?v=K6_Ftl7kD1g"
   },
   {
     title: 'Ant Man',
@@ -61,7 +68,8 @@ let datas = [
     duration: '2hrs 50 min',
     category: ['Hành Động', 'Khoa Học', 'Gia Đình'],
     release: 'November 8 , 2021',
-    schedule: ['09:40', '13:45', '15:45', '19:50']
+    schedule: ['09:40', '13:45', '15:45', '19:50'],
+    link:"https://www.youtube.com/watch?v=K6_Ftl7kD1g"
   },
   {
     title: 'Gái Già Lắm Chiêu',
@@ -69,12 +77,14 @@ let datas = [
     duration: '2hrs 50 min',
     category: ['Tình Cảm', 'Gia Đình', 'Cuộc Sống'],
     release: 'November 8 , 2021',
-    schedule: ['09:40', '13:45', '15:45', '19:50']
+    schedule: ['09:40', '13:45', '15:45', '19:50'],
+    link:"https://www.youtube.com/watch?v=K6_Ftl7kD1g"
   },
-  // {
-  //   thumb: "movie12"
-  // }
 ];
+
+
+
+
 
 function saveDataToLS() {
   localStorage.setItem('datas', JSON.stringify(datas));

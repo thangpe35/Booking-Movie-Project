@@ -23,7 +23,7 @@ function createListMovie() {
       <h5 class="title">
         <a href="#0">${datas[i].title}</a>
       </h5>
-      <p class="duration">2hrs 50 min</p>
+      <p class="duration">2h 50min</p>
       <div class="movie-tags">`;
     for (let j = 0; j < datas[i].category.length; j++) {
       movieList += `<a href="#0">${datas[i].category[j]}</a>`
@@ -45,7 +45,7 @@ function createListMovie() {
       <div class="book-area">
         <div class="book-ticket">
           <div class="react-item">
-            <a href="./trailer/${datas.trailer}" class="popup-video">
+            <a href="${datas[i].link}" class="popup-video">
               <div class="thumb">
                 <img src="././images/icons/play-button.png" alt="icons">
               </div>

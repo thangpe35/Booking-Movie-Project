@@ -24,7 +24,7 @@
         </div>
         <ul class="menu">
           <li class="header-button">
-            <a href="#">Tham Gia Với Chúng Tôi</a>
+            <a href="#" id="user">Tham Gia Với Chúng Tôi</a>
           </li>
 
         </ul>
@@ -266,6 +266,11 @@
 
   <script src="data.js"></script>
   <script src="script.js"></script>
+  <script src="./model.js"></script>
+  <script>
+    var user = document.getElementById("user")
+    user.innerText = sessionStorage.getItem('email')
+  </script>
 </body>
 
 </html>

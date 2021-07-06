@@ -10,7 +10,7 @@ components.login = `
     <form id="login-form">
         <div class="input-name-wrapper">
             <div class="input-wrapper">
-                <input type="text" placeholder="Email" name="emailLogin">
+                <input type="email" placeholder="Email" name="emailLogin">
                 <div class="error" id="email-login-error"></div>
             </div>
             <div class="input-wrapper">
@@ -49,7 +49,7 @@ components.register = `<div class="login-container">
                 <div class="error" id="last-name-error"></div>
             </div>
             <div class="input-wrapper">
-                <input type="text" placeholder="Email" name="email">
+                <input type="email" placeholder="Email" name="email">
                 <div class="error" id="email-error"></div>
             </div>
             <div class="input-wrapper">

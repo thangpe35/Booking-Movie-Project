@@ -141,8 +141,11 @@
           <!-- <li>
             <a href="#">contact</a>
           </li> -->
-          <li class="header-button">
-            <a href="./index.html">Tham Gia Với Chúng Tôi</a>
+          <li class="header-button" id="user">
+            
+          </li>
+          <li class="header-button" style="margin-left:10px ;" id="Logout">
+            <a href="./index.html" >Đăng xuất</a>
           </li>
 
         </ul>
@@ -152,12 +155,11 @@
   <!-- ==========Header-Section========== -->
 
   <!-- ==============Window-Warning-Section============= -->
-  <section class="window-warning">
+  <!-- <section class="window-warning">
     <div class="lay">
-      <iframe width="1280" height="720" src="https://www.youtube.com/embed/AlLFB-GINsg?enablejsapi=1" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     </div>
-  </section>
+  </section> -->
   <!-- ==============Window-Warning-Section============= -->
 
   <!-- ==========Banner-Section========== -->
@@ -180,8 +182,8 @@
         <div id="movie-area" class="movie-area mb-10">
           <div id="movie-list" class="movie-list">
             <div class="movie-thumb c-thumb">
-              <a href="#0" class="w-100 bg_img h-100" data-background="././images/movie/movie01.jpg">
-                <img class="d-sm-none" src="./images/movie/movie01.jpg" alt="movie">
+              <a href="#0" class="w-100 bg_img h-100" data-background="">
+                <img class="d-sm-none" src="" alt="movie">
               </a>
             </div>
             <div class="movie-content bg-one">
@@ -195,7 +197,7 @@
                 <a href="#0">fantasy</a>
               </div>
               <div class="release">
-                <span>Release Date : </span> <a href="#0"> November 8 , 2020</a>
+                <span>Release Date : </span> <a href="#0"> November 8 , 2021</a>
               </div>
               <div class="movie-schedule">
                 <div class="item">
@@ -217,7 +219,7 @@
                     <a href="https://www.youtube.com/watch?v=K6_Ftl7kD1g" class="popup-video">
                       <div class="thumb">
                         <img src="././images/icons/play-button.png" alt="icons">
-                      </div>  
+                      </div>
                       <span>watch trailer</span>
                     </a>
                   </div>
@@ -831,11 +833,31 @@
     </div>
   </footer>
   <!-- =================Footer-Section================== -->
-
+ 
   <script src="./data.js"></script>
   <script src="./admin.js"></script>
   <script src="./app.js"></script>
+  <script src="./model.js"></script>
 
+  <script>
+    // console.log(sessionStorage.getItem('email'))
+    var user = document.getElementById("user");
+    var logout = document.getElementById("Logout");
+    // user.innerText = sessionStorage.getItem('email');
+    console.log(typeof sessionStorage.getItem('email'));
+
+
+    
+    if(sessionStorage.getItem('email') == undefined ){
+      logout.style.visibility= 'hidden'
+      user.innerHTML = '<a href="./index.html">Tham Gia Với Chúng Tôi</a>'
+    } else {
+      logout.style.visibility= 'visible'
+      user.innerHTML = `<a href="#">${sessionStorage.getItem('email')}</a>`
+    }
+    
+   
+  </script>
 </body>
 
 </html>

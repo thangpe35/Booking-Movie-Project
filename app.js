@@ -131,7 +131,7 @@ document.addEventListener("click", closeAllSelect);
 
 ////////////////////////////////////////////////
 // Movie schedule
-const movieList = document.querySelectorAll('.movie-list');
+const movieList = document.querySelectorAll('.movie-schedule');
 
 for (let i = 0; i < movieList.length; i++) {
   movieList[i].addEventListener('click', function (e) {
@@ -147,8 +147,9 @@ for (let i = 0; i < movieList.length; i++) {
 
       console.log(time, title);
     } else if (e.target.parentElement.className == 'thumb') {
-      windowWarning.style.display = 'block';
+      // windowWarning.style.display = 'block';
     }
   })
 }
+
 ///////////////////////////////////////////////

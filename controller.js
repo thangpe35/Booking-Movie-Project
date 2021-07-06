@@ -1,6 +1,5 @@
 const controller = {}
 controller.register = (data) => {
-    const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     
     if (data.firstName === '') {
         document.getElementById('first-name-error').innerText = 'Please input first name'
@@ -59,21 +58,21 @@ controller.login = (dataLogin) => {
     }
 }
 
-// Show success
-function showSuccess(input) {
-    const error = input.nextElementSibling;
-    error.innerText = '';
-    input.className = 'success';
-  }
-// Check mail
-function checkEmail(input) {
-    const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+// // Show success
+// function showSuccess(input) {
+//     const error = input.nextElementSibling;
+//     error.innerText = '';
+//     input.className = 'success';
+//   }
+// // Check mail
+// function checkEmail(input) {
+//     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   
-    if (re.test(String(input.value).toLowerCase())) {
-      showSuccess(input);
-      return true;
-    } else {
-      showError(input, 'Email is not valid');
-      return false;
-    }
-}
+//     if (re.test(String(input.value).toLowerCase())) {
+//       showSuccess(input);
+//       return true;
+//     } else {
+//       showError(input, 'Email is not valid');
+//       return false;
+//     }
+// }

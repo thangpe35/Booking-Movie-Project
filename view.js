@@ -15,7 +15,8 @@ view.showScreen = function (name) {
                 // if (dataLogin.email == '' || !reg.test(dataLogin.email)) {
                 //     loginForm.email.value = '';
                 // } 
-                
+                loginForm.emailLogin.value = ""
+                loginForm.passwordLogin.value = ""
                 controller.login(dataLogin)
             })
             const Account = document.getElementById('redirect-to-regiser')
@@ -37,6 +38,11 @@ view.showScreen = function (name) {
                     password: registerForm.password.value,
                     confirmPassword: registerForm.confirmPassword.value
                 }
+                registerForm.firstName.value = ""
+                registerForm.lastName.value = ""
+                registerForm.email.value = ""
+                registerForm.password.value = ""
+                registerForm.confirmPassword.value = ""
                 controller.register(data)
             })
             const goToLogin = document.getElementById('redirect-to-login')

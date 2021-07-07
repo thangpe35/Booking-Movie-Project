@@ -8,7 +8,7 @@ model.register = (data) => {
         })
         firebase.auth().currentUser.sendEmailVerification()
         alert('The email has been registered, please check you email')
-        window.location.href("http://127.0.0.1:5501/movie-list.html")
+        window.location = "http://127.0.0.1:5501/movie-list.html"
     }).catch((err) => {
         console.log(err)
         alert(err.message)
@@ -43,9 +43,7 @@ model.login = (dataLogin) => {
     console.log(user)
     sessionStorage.setItem('displayName', user.displayName);
     sessionStorage.setItem('email', user.email);
-    // get sessionStorage
     
-    // ...
     window.location = "http://127.0.0.1:5501/movie-list.html"
   })
   .catch((error) => {
